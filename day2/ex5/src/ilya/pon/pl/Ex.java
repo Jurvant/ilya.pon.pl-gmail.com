@@ -13,5 +13,4 @@ public class Ex {
         System.out.println(b);
         //хз, задачи небыло, просто код глянуть
     }
-
 }

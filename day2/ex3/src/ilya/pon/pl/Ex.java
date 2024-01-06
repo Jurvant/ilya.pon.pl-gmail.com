@@ -11,6 +11,11 @@ public class Ex {
 		double c;
 		c = b*a*(a + b)/(a*a);
 		System.out.println("Результат выражения b*a*(a + b)/(a*a) равен:" + c);
+		int d = (int)c;
+		System.out.println(d);
+		boolean e = ((double) d == c);
+		System.out.println("равность с переменной типа int :" + e);
+		
 		
 		in.close();
 	}
